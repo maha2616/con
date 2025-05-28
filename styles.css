@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #f2709c, #ff9472);
+  color: #fff;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 40px 50px;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.6);
+  max-width: 600px;
+  width: 90%;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 2.5em;
+  color: #FFD700;
+}
+
+.tagline {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+ul li {
+  font-size: 1rem;
+}
+
+.prizes {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.pay-button {
+  background-color: #FFD700;
+  color: #000;
+  text-decoration: none;
+  padding: 15px 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  display: inline-block;
+  transition: background 0.3s ease;
+}
+
+.pay-button:hover {
+  background-color: #ffc107;
+}
